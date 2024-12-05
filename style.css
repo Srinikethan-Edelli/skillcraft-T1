@@ -1,0 +1,143 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #24241d;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(239, 240, 233);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.hero {
+    background: #47e164;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.features .feature {
+    text-align: center;
+    margin: 30px;
+}
+
+.features .feature h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    font-size: 1.1em;
+}
+
+.pricing .plan {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #2fdf10;
+}
+
+.pricing .plan h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.pricing .plan p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #08e287;
+}
+
+.contact button {
+    padding: 15px;
+    background-color: #4CAF50;
+    color: rgb(241, 234, 234);
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background: #e67d06;
+    color: rgb(11, 21, 18);
+    padding: 20px 0;
+    text-align: center;
+}
